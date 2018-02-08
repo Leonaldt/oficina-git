@@ -1,0 +1,18 @@
+package br.edu.fmf.main;
+
+import br.edu.fmf.modelo.Gato;
+
+public class Main {
+	
+	public static void main(String[] args){
+		
+		Gato garfield = new Gato("Garfield", "Laranja", 6);
+		
+		System.out.println("*****Imprimindo dados do Gato*****\n");
+		System.out.println("Nome: "+garfield.getNome());
+		System.out.println("Cor: "+garfield.getCor());
+		System.out.println("Idade: "+garfield.getIdade());
+		
+	}
+
+}
